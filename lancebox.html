@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Gulzar&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/cfdd3d1fce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main-div">
+      <!-- navigation -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary nav-style">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images/lancebox-logo.svg" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end nav-div nav-style-div-link"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Sign Up</a>
+              </li>
+            </ul>
+
+            <button class="btn btn-primary" type="button">
+              Create Quick Invoice
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- hero -->
+      <div class="hero-div">
+        <div class="hero-div-text">
+          <h1 class="fs-1">
+            Master your invoices,<br />
+            Master your business
+          </h1>
+          <p class="fw-semibold">
+            Spend less time invoicing, more time growing <br />
+            with Lancebox!
+          </p>
+          <div class="hero-div-text-btn">
+            <button type="button" class="btn btn-primary hero-div-text-btn-one">
+              Create Quick Invoice
+            </button>
+            <button type="button" class="btn btn-outline-secondary hero-div-text-btn-two">
+              Get Started
+            </button>
+          </div>
+        </div>
+        <div class="hero-div-img">
+          <img src="./images/welcome-view.png" alt="welcome-screen" />
+        </div>
+      </div>
+
+      <!-- about -->
+      <section class="about">
+        <div class="about-first">
+          <div class="about-first-list">
+            <h2>Why Lancebox?</h2>
+            <ul>
+              <li>
+                Spend less time invoicing, more time growing with Lancebox!
+              </li>
+              <li>Enhance your professional image with branded invoices.</li>
+              <li>
+                Present polished and professionak invoices to your client.
+              </li>
+              <li>
+                Strengthen client relationships with prompt and accurate
+                invoicing.
+              </li>
+              <li>Stay organized and never miss a payment again.</li>
+              <li>Get paid faster with streamlined invoicing processes.</li>
+              <li>Manage your invoices anytime, anywhere from any device.</li>
+            </ul>
+          </div>
+          <div class="about-first-img">
+            <img src="./images/invoice.png" alt="mobile invoice view" />
+          </div>
+        </div>
+        <div class="about-second">
+          <div class="about-second-how">
+            <h2>How Lancebox Works</h2>
+            <p>
+              Streamline your invoicing process, get paid faster and spend less
+              time invoicing.
+            </p>
+          </div>
+          <div class="about-second-grid">
+            <div class="about-grids">
+              <div class="about-grids-img-div">
+                <img src="./images/user.svg" alt="User-icon" />
+              </div>
+              <h4>No Sign Up Required</h4>
+              <p>
+                Click on create quick invoice without having to create an
+                account or sign up.
+              </p>
+            </div>
+            <div class="about-grids">
+              <div class="about-grids-img-div">
+                <img src="./images/file-check.svg" alt="file-check" />
+              </div>
+              <h4>Complete Form</h4>
+              <p>
+                Fill the form to create invoice from the Dashboard/a quick
+                invoice. Add product details, line items, tax rates, and more.
+              </p>
+            </div>
+            <div class="about-grids">
+              <div class="about-grids-img-div">
+                <img src="./images/download.svg" alt="download" />
+              </div>
+              <h4>Download/Send Invoice</h4>
+              <p>Download your invoice or send to client to view</p>
+            </div>
+            <div class="about-grids">
+              <div class="about-grids-img-div">
+                <img src="./images/save.svg" alt="User-icon" />
+              </div>
+              <h4>Save Invoice</h4>
+              <p>Save your invoice to view/edit later</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- form -->
+      <section class="form">
+        <h2>Create a Quick Invoice</h2>
+        <div class="form-div">
+          <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#" >Invoice Details</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Bank Details</li>
+              <li class="breadcrumb-item active" aria-current="page">Previous Invoice</li>
+              <li class="breadcrumb-item active" aria-current="page">Download Invoice/Send to client</li>
+              <li class="breadcrumb-item active" aria-current="page"><img src="./images/Solid.svg" alt=""></li>
+            </ol>
+          </nav>
+          <form class="row form-div-form" action="">
+            <div>
+              <label for="invoice-num" class="form-label">Invoice Number</label>
+              <input type="number" value="01" class="form-control w-25" id="invoice-num" readonly>
+            </div>
+            <div class="col-md-5 mt-4">
+              <label for="inputClientName" class="form-label">Client's Name</label>
+              <input type="text" class="form-control" id="inputClientName" placeholder="Enter a name">
+            </div>
+            <div class="col-md-5 form-one mt-4">
+              <label for="inputName" class="form-label pl-0">Your Name</label>
+              <input type="text" class="form-control" id="inputName">
+            </div>
+
+            <div class="col-md-4 mt-4">
+              <label for="inputDate" class="form-label">Issuance Date</label>
+              <input type="date" class="form-control" id="inputDate" value="22/03/2030">
+            </div>
+            <div class="col-md-4 mt-4">
+              <label for="inputCurrency" class="form-label">Currency</label>
+              <select id="inputCurrency" class="form-select">
+                <option selected>Select</option>
+                <option>Dollar</option>
+                <option>Euro</option>
+                <option>Naira</option>
+              </select>
+            </div>
+
+            <h3 class="form-div-form-invoice-details">Invoice Details</h3>
+            <div class="mt-3">
+              <label for="invoice-num" class="form-label">Invoice Title</label>
+              <input type="text"  class="form-control w-50" placeholder="Enter a description" id="invoice-num" readonly>
+            </div>
+
+            <div class="form-div-form-item-description-div row mt-4 align-items-center">            
+              <div class="col-md-4">
+                <label class="form-label" for="autoSizingInput">Item Description</label>
+                <input type="text" class="form-control" id="autoSizingInput" placeholder="Enter a description">
+              </div>
+              <div class="col-md-2">
+                <label class="form-label" for="autoSizingInput">Quantity</label>
+                <input type="text" class="form-control" id="autoSizingInput" placeholder="e.2.00">
+              </div>
+              <div class="col-md-2">
+                <label class="form-label" for="autoSizingInput">Price</label>
+                <input type="text" class="form-control" id="autoSizingInput" placeholder="e.3,000,000.00">
+              </div>
+              <div class="col-md-3">
+                <label class="form-label" for="autoSizingInput">Amount</label>
+                <input type="text" class="form-control" id="autoSizingInput" placeholder="0.00">
+              </div>
+              
+              <div class="col-auto form-button form-div-form-item-description-div-button">
+                <button type="submit" class="btn btn-primary"><img src="./images/trash.svg" alt=""></button>
+              </div>
+              <p class="mt-3"><a href="#" class="link-underline-primary">Add New Item</a></p>
+            </div>
+            
+            <div class="form-div-form-calc gy-2 gx-3 ">
+              <div class="row mb-3 justify-content-end ">
+                <label for="inputText" class="col-sm-2 col-form-label">SubTotal</label>
+                <div class="col-sm-1">
+                  <input type="text" class="form-control" id="inputText" placeholder="N0.00">
+                </div>
+              </div>
+              <div class="row mb-3 justify-content-end ">
+                <label for="inputVat" class="col-sm-2 col-form-label">VAT</label>
+                <div class="col-sm-1 form-div-form-calc-vat">
+                  <input type="number" class="form-control" id="inputVat"><span>%</span>
+                </div>
+              </div>
+              <div class="row mb-3 justify-content-end">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Shipping</label>
+                <div class="col-sm-1">
+                  <input type="password" class="form-control" id="inputPassword3">
+                </div>
+              </div>              
+              <div class="row mb-3 justify-content-end ">
+                <label for="inputText" class="col-sm-2 col-form-label">SubTotal</label>
+                <div class="col-sm-1">
+                  <input type="text" class="form-control no-border" id="inputText" placeholder="N 0.00">
+                </div>
+              </div>
+              <div class=" form-button row justify-content-end ">
+                <button type="submit" class="btn btn-primary w-25 justify-content-end">Next</button>
+              </div>
+            </div>  
+          </form>
+        </div>
+      </section>
+
+      <!-- cs - coming soon -->
+      <section class="cs">
+        <div class="cs-div">
+          <h2>Coming soon to Your Mobile</h2>
+          <p>Experience a new level of convenience and flexibility with our service&#39s mobile app, designed to simplify your life.</p>
+          <div class="cs-div-button-div">
+            <button type="button" class="btn btn-outline-primary">
+              <img src="./images/apple-icon.svg" alt=""> 
+              <p>Download on<br> App Store</p>
+            </button>
+            <button type="button" class="btn btn-outline-primary">
+              <img src="./images/playstore icon.svg" alt="">
+              <p>Get it on <br>Google Play</p>
+            </button>
+          </div> 
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="footer-div">
+          <img src="./images/lancebox-logo.svg" alt="lancebox-logo">
+          <ul class="nav footer-div-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Quick Invoice</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Privacy Policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Legal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Log In</a>
+            </li>
+          </ul>
+          <hr>
+          <div class="footer-rights-div">
+            <p class="footer-rights-div-rights">&#169;2023 Lancebox. All rights reserved</p>
+            <ul class="nav justify-content-end footer-rights-div-ul">
+            <li class="nav-item">
+              <a class="nav-link " href="#">Cookies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Terms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Privacy</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+      </footer>
+
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

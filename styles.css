@@ -1,0 +1,348 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.main-div {
+  box-sizing: border-box;
+  background-color: rgba(246, 248, 250, 0.9);
+}
+.main-div button {
+  border-radius: 32px;
+  padding: 12px 16px;
+}
+
+.nav-style {
+  width: 100%;
+  box-shadow: 0 5px 5px rgba(128, 142, 156, 0.1019607843);
+  padding: 0.7% 5%;
+}
+.nav-style-div-link ul {
+  margin-right: 4%;
+}
+.nav-style-div-link li {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.nav-style-div-link a {
+  color: #333333;
+  font-weight: 600;
+}
+.nav-style-div-link button {
+  background-color: #54acff;
+  color: #0d3b66;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 800px) {
+  .nav-style-div-link button {
+    margin-top: 2%;
+    width: 100%;
+  }
+}
+.hero-div {
+  padding: 9% 7% 0;
+  background-color: #e9f0f5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hero-div-text {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5% 0;
+}
+.hero-div-text h1 {
+  color: #0d3b66;
+  font-size: 3vw;
+}
+.hero-div-text p {
+  color: #333333;
+  font-size: 1.5vw;
+}
+.hero-div-text-btn {
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+}
+.hero-div-text-btn button {
+  width: 100%;
+}
+.hero-div-text-btn-one {
+  background-color: #54acff;
+  color: #0d3b66;
+  border: none;
+}
+.hero-div-text-btn-two {
+  background: transparent;
+  color: #54acff;
+  border: 2px solid #54acff;
+}
+.hero-div-img img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-top: -12%;
+}
+
+.fs-1 {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 800px) {
+  .hero-div {
+    display: block;
+  }
+  .hero-div-img {
+    margin-top: 12%;
+  }
+}
+.about-first {
+  padding: 3% 10% 0;
+  justify-content: space-between;
+  gap: 20%;
+  display: flex;
+  flex-direction: row;
+}
+.about-first-list {
+  margin-top: 5%;
+}
+.about-first-list h2 {
+  font-weight: 600;
+  font-size: 2.5vw;
+}
+.about-first-list ul {
+  font-weight: 500;
+  font-size: 1.4vw;
+  line-height: 32px;
+  padding: 0;
+  margin: 0;
+}
+.about-first-list li {
+  background: url("./images/Solid.svg") no-repeat 7px 7px;
+  list-style: none;
+  margin: 0;
+  padding: 0px 0px 5px 50px;
+  vertical-align: middle;
+}
+.about-first-img img {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+}
+.about-second {
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5%;
+}
+.about-second-how {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-second-how h2 {
+  font-size: 3vw;
+  font-weight: 600;
+  line-height: 4vw;
+  color: #0d3b66;
+}
+.about-second-how p {
+  font-size: 1vw;
+  font-weight: 400;
+  line-height: 1.5vw;
+  color: #333333;
+}
+.about-second-grid {
+  flex-basis: 70%;
+  display: grid;
+  gap: 1.5rem 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+}
+.about-grids {
+  background-color: #fafafa;
+  box-shadow: 0px 8px 20px 0px rgba(128, 142, 156, 0.1490196078);
+  display: flex;
+  flex-direction: column;
+  gap: 3%;
+  border-radius: 12px;
+  padding: 4% 4% 0;
+}
+.about-grids-img-div {
+  background-color: #e0edfa;
+  border-radius: 50%;
+  width: 6vw;
+  height: 6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-grids h4 {
+  font-size: 1vw;
+  line-height: 1.5vw;
+  font-weight: 600;
+}
+.about-grids p {
+  font-size: 0.9vw;
+  line-height: 1.3vw;
+}
+
+@media screen and (max-width: 800px) {
+  .about-first {
+    display: block;
+  }
+  .about-second {
+    display: block;
+  }
+  .about-grids-img-div img {
+    width: 15px;
+    height: 15px;
+  }
+}
+.form {
+  padding: 7%;
+  background-color: #0d3b66;
+}
+.form ::-moz-placeholder {
+  color: #b2b2b2;
+  font-size: 0.9vw;
+}
+.form ::placeholder {
+  color: #b2b2b2;
+  font-size: 0.9vw;
+}
+.form h2 {
+  color: #ffffff;
+  font-size: 3vw;
+  font-weight: 600;
+}
+.form-div {
+  background-color: #fafafa;
+  color: #333333;
+  margin-top: 3%;
+  border-radius: 32px;
+  padding: 4.5% 6%;
+}
+.form-div li > a {
+  color: #333333;
+  text-decoration: none;
+}
+.form-div-form {
+  margin-top: 3%;
+}
+.form-div-form input {
+  background: transparent;
+  border: 2px solid #e6e6e6;
+}
+.form-div-form select {
+  border: 2px solid #e6e6e6;
+}
+.form-div-form h3 {
+  margin-top: 4%;
+}
+.form-div-form-item-description-div {
+  padding: 2% 1% 1%;
+  margin-left: 1%;
+  background-color: #f4f4f4;
+}
+.form-div-form-item-description-div a {
+  color: #54acff;
+}
+.form-div-form-item-description-div button {
+  background-color: #e6e6e6;
+  display: flex;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+}
+.form-div-form-item-description-div-button {
+  margin-top: 3%;
+}
+.form-div-form-calc input[type=text] {
+  border: none;
+  background: transparent;
+}
+.form-div-form-calc-vat {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.form-div-form-calc button {
+  background: #b2b2b2;
+  color: #ffffff;
+  font-size: 0.9vw;
+  border: none;
+}
+.form-div-form-calc button:hover {
+  background-color: #0d3b66;
+}
+
+.cs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 7%;
+}
+.cs-div {
+  max-width: 700px;
+}
+.cs-div h2 {
+  font-size: 3vw;
+  color: #0d3b66;
+  font-weight: 600;
+}
+.cs-div p {
+  font-size: 1.1vw;
+  line-height: 1.8vw;
+  color: #333333;
+}
+.cs-div-button-div {
+  display: flex;
+  gap: 3%;
+}
+.cs-div-button-div button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  border: 2px solid #e6e6e6;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.footer {
+  background-color: #e9f0f5;
+  padding: 3% 7%;
+}
+.footer img {
+  width: 232px;
+  height: 58px;
+}
+.footer hr {
+  border: 1px solid #54acff;
+}
+.footer-div {
+  display: flex;
+  flex-direction: column;
+  gap: 7%;
+}
+.footer-div-nav {
+  color: #0f0f0f;
+  font-size: 0.9vw;
+}
+.footer-rights-div {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-rights-div-rights {
+  font-size: 0.9vw;
+  color: #0d3b66;
+  margin-top: 1%;
+}/*# sourceMappingURL=styles.css.map */

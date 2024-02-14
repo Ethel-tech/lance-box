@@ -1,0 +1,13 @@
+@import "./variables.scss";
+
+@mixin flex-display {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin center-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5% 0;
+}
